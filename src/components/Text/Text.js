@@ -1,13 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Text as CoreText } from "@co-design/core";
-import ReactHtmlParser from "react-html-parser";
 
-function Typography(props) {
+function Text(props) {
   return <CoreText {...props}>{props.children}</CoreText>;
 }
 
-Typography.propTypes = {
+Text.propTypes = {
   /**
    * The typography style to apply.
    * @uxpinpropname  Text

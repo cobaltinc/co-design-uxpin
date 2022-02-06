@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@mui/icons-material": "^5.0.0",
+    "@mui/lab": "^5.0.0-alpha.51",
+    "@mui/material": "^5.0.4",
+    "@mui/styles": "^5.0.1",
+    
     "@co-design/core": "^0.6.11",
     "@co-design/hooks": "^0.6.2",
     "@co-design/icons": "^0.6.3",
@@ -23,7 +31,20 @@
     "start": "npx uxpin-merge --disable-tunneling",
     "uxpin": "uxpin-merge --disable-tunneling --webpack-config ./uxpin.webpack.config.js --wrapper ./src/components/UXPinWrapper/UXPinWrapper.js",
     "build": "react-scripts build",
+    "develop": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

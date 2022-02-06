@@ -1,13 +1,12 @@
 import * as React from "react";
 import PropTypes from "prop-types";
 import { Group as CoreGroup } from "@co-design/core";
-import Divider from "@mui/material/Divider";
 
 function Group(props) {
   return <CoreGroup {...props}>{props.children}</CoreGroup>;
 }
 
-Stack.propTypes = {
+Group.propTypes = {
   children: PropTypes.node,
 
   position: PropTypes.oneOf(["left", "center", "right", "apart"]),

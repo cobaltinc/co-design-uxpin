@@ -1,11 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Avatar as CoreAvatar } from "@co-design/core";
-import Icon from "../Icon/Icon";
 
-/**
- * @uxpindocurl https://mui.com/api/avatar/
- */
 function Avatar(props) {
   return <CoreAvatar {...props}>{props.children}</CoreAvatar>;
 }

@@ -7,7 +7,7 @@ module.exports = {
       },
       {
         name: 'Typography',
-        include: ['src/components/Text/Text.js'],
+        include: ['src/components/Heading/Heading.js', 'src/components/Text/Text.js'],
       },
       {
         name: 'Data Display',

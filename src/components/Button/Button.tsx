@@ -1,9 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Button as CoreButton, ButtonProps } from "@co-design/core";
-import { DEFAULT_COLORS, DEFAULT_SIZES } from "../../constants";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Button as CoreButton, ButtonProps } from '@co-design/core';
+import { DEFAULT_COLORS, DEFAULT_SIZES } from '../../constants';
 
-interface Props extends ButtonProps<"button"> {
+interface Props extends ButtonProps<'button'> {
   uxpId?: string;
 }
 
@@ -19,13 +19,7 @@ Button.propTypes = {
   size: PropTypes.oneOf(DEFAULT_SIZES),
 
   /** @uxpinpropname Variant */
-  variant: PropTypes.oneOf([
-    "primary",
-    "secondary",
-    "tertiary",
-    "inverse",
-    "transparent",
-  ]),
+  variant: PropTypes.oneOf(['primary', 'secondary', 'tertiary', 'inverse', 'transparent']),
 
   /** @uxpinpropname Color */
   color: PropTypes.oneOf(DEFAULT_COLORS),

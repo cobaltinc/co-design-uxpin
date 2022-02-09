@@ -4,8 +4,8 @@ Integration of [Co Design](https://github.com/cobaltinc/co-design) with UXPin Me
 
 ## About UXPin Merge
 
-Merge is a revolutionary technology that lets users import (and keep in sync) coded React.js components from GIT repositories to UXPin editor. 
-The imported components are 100% identical to components used by developers during the development process. 
+Merge is a revolutionary technology that lets users import (and keep in sync) coded React.js components from GIT repositories to UXPin editor.
+The imported components are 100% identical to components used by developers during the development process.
 It means that components are going to look and, function (interactions, data) identical to the real product experienced by the users.
 
 ## How to use this boilerplate?

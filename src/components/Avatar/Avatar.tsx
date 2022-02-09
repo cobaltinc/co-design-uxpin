@@ -1,8 +1,8 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Avatar as CoreAvatar, AvatarProps } from "@co-design/core";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Avatar as CoreAvatar, AvatarProps } from '@co-design/core';
 
-interface Props extends AvatarProps<"div"> {
+interface Props extends AvatarProps<'div'> {
   uxpId?: string;
 }
 
@@ -21,10 +21,10 @@ Avatar.propTypes = {
   alt: PropTypes.string,
 
   /** @uxpinpropname Shape */
-  shape: PropTypes.oneOf(["square", "round", "circle"]),
+  shape: PropTypes.oneOf(['square', 'round', 'circle']),
 
   /** @uxpinpropname Size */
-  size: PropTypes.oneOf(["xsmall", "small", "medium", "large", "xlarge"]),
+  size: PropTypes.oneOf(['xsmall', 'small', 'medium', 'large', 'xlarge']),
 
   overrideStyles: PropTypes.object,
 };

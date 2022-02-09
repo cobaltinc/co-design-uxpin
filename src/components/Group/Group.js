@@ -1,7 +1,6 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { Group as CoreGroup, GroupProps } from '@co-design/core';
-import { DEFAULT_SIZES } from '../../constants';
+import { Group as CoreGroup } from '@co-design/core';
 
 const Group = (props) => {
   return <CoreGroup {...props}>{props.children}</CoreGroup>;
@@ -21,7 +20,7 @@ Group.propTypes = {
   align: PropTypes.oneOf(['start', 'center', 'end']),
 
   /** @uxpinpropname Spacing */
-  spacing: PropTypes.oneOfType([PropTypes.number, PropTypes.oneOf(DEFAULT_SIZES)]),
+  spacing: PropTypes.string,
 
   /** @uxpinpropname Inline */
   inline: PropTypes.bool,

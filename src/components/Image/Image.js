@@ -1,13 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Button as CoreButton, ButtonProps } from '@co-design/core';
-import { DEFAULT_COLORS, DEFAULT_RADIUS, DEFAULT_SIZES } from '../../constants';
+import { Image as CoreImage } from '@co-design/core';
 
-const Button = (props) => {
-  return <CoreButton {...props}>{props.children}</CoreButton>;
+const Image = (props) => {
+  return <CoreImage {...props}>{props.children}</CoreImage>;
 };
 
-Button.propTypes = {
+Image.propTypes = {
   /** @uxpinpropname Image URL */
   src: PropTypes.string,
 
@@ -18,7 +17,7 @@ Button.propTypes = {
   height: PropTypes.number,
 
   /** @uxpinpropname Radius */
-  radius: PropTypes.oneOf(DEFAULT_RADIUS),
+  radius: PropTypes.oneOf(['small', 'medium', 'large', 'round', 'circular']),
 
   /** @uxpinpropname Fit */
   fit: PropTypes.oneOf(['cover', 'fill', 'contain']),
@@ -26,4 +25,4 @@ Button.propTypes = {
   overrideStyles: PropTypes.object,
 };
 
-export default Button;
+export default Image;

@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Text as CoreText, TextProps } from '@co-design/core';
-import { DEFAULT_COLORS } from '../../constants';
+import { Text as CoreText } from '@co-design/core';
 
 const Text = (props) => {
   return <CoreText {...props}>{props.children}</CoreText>;
@@ -11,11 +10,14 @@ Text.propTypes = {
   /** @uxpinpropname Text */
   children: PropTypes.node,
 
+  /** @uxpinpropname Size */
+  size: PropTypes.string,
+
   /** @uxpinpropname Alignment */
   align: PropTypes.oneOf(['left', 'center', 'right']),
 
   /** @uxpinpropname Color */
-  color: PropTypes.oneOfType([PropTypes.string, PropTypes.oneOf(DEFAULT_COLORS)]),
+  color: PropTypes.string,
 
   /** @uxpinpropname Underline */
   underline: PropTypes.bool,

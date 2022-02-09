@@ -17,6 +17,7 @@ module.exports = {
         name: 'Layout',
         include: [
           // "src/components/View/View.js",
+          'src/components/Center/Center.js',
           'src/components/Container/Container.js',
           // "src/components/Grid/Grid.js",
           'src/components/Group/Group.js',

@@ -27,3 +27,4 @@ It means that components are going to look and, function (interactions, data) id
 | Group                    | ✓ Completed    |
 | Image                    | ✓ Completed    |
 | Text                     | ✓ Completed    |
+| View                     | ✓ Completed    |

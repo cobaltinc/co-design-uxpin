@@ -2,10 +2,10 @@
 import React from "react";
 import { CoProvider } from "@co-design/core";
 
-export default function UXPinWrapper({ children }) {
+export default ({ children }) => {
   return (
     <CoProvider withGlobalStyles withNormalizeCSS>
       {children}
     </CoProvider>
   );
-}
+};

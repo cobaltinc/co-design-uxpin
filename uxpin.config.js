@@ -27,7 +27,7 @@ module.exports = {
       },
       {
         name: 'Miscellaneous',
-        include: ['src/components/Divider/Divider.js'],
+        include: ['src/components/Divider/Divider.js', 'src/components/Spinner/Spinner.js'],
       },
     ],
     wrapper: 'src/components/UXPinWrapper/UXPinWrapper.js',

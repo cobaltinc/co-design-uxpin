@@ -29,5 +29,6 @@ It means that components are going to look and, function (interactions, data) id
 | Grid                     | ✓ Completed    |
 | Group                    | ✓ Completed    |
 | Image                    | ✓ Completed    |
+| Spinner                  | ✓ Completed    |
 | Text                     | ✓ Completed    |
 | View                     | ✓ Completed    |

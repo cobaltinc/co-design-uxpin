@@ -15,24 +15,10 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(s*)css$/,
-        use: [
-          {
-            loader: 'style-loader',
-          },
-          {
-            loader: 'css-loader',
-            options: {
-              importLoaders: 2,
-            },
-          },
-        ],
-      },
-      {
         loader: require.resolve('babel-loader', {
           paths: ['./node_modules/@uxpin/merge-cli'],
         }),
-        test: /\.js?$/,
+        test: /\.js$/,
         exclude: /node_modules/,
         options: {
           presets: [

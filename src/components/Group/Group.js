@@ -3,11 +3,7 @@ import PropTypes from 'prop-types';
 import { Group as CoreGroup, GroupProps } from '@co-design/core';
 import { DEFAULT_SIZES } from '../../constants';
 
-interface Props extends GroupProps {
-  uxpId?: string;
-}
-
-const Group = (props: Props) => {
+const Group = (props) => {
   return <CoreGroup {...props}>{props.children}</CoreGroup>;
 };
 

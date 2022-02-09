@@ -3,11 +3,7 @@ import PropTypes from 'prop-types';
 import { Button as CoreButton, ButtonProps } from '@co-design/core';
 import { DEFAULT_COLORS, DEFAULT_SIZES } from '../../constants';
 
-interface Props extends ButtonProps<'button'> {
-  uxpId?: string;
-}
-
-const Button = (props: Props) => {
+const Button = (props) => {
   return <CoreButton {...props}>{props.children}</CoreButton>;
 };
 

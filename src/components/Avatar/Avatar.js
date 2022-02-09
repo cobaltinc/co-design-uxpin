@@ -2,11 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Avatar as CoreAvatar, AvatarProps } from '@co-design/core';
 
-interface Props extends AvatarProps<'div'> {
-  uxpId?: string;
-}
-
-const Avatar = (props: Props) => {
+const Avatar = (props) => {
   return <CoreAvatar {...props}>{props.children}</CoreAvatar>;
 };
 
@@ -14,7 +10,7 @@ Avatar.propTypes = {
   /** @uxpinpropname Letters */
   children: PropTypes.string,
 
-  /** @uxpinpropname ImageURL */
+  /** @uxpinpropname Image URL */
   src: PropTypes.string,
 
   /** @uxpinignoreprop */

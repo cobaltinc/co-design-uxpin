@@ -3,11 +3,7 @@ import PropTypes from 'prop-types';
 import { Text as CoreText, TextProps } from '@co-design/core';
 import { DEFAULT_COLORS } from '../../constants';
 
-interface Props extends TextProps<'span'> {
-  uxpId?: string;
-}
-
-const Text = (props: Props) => {
+const Text = (props) => {
   return <CoreText {...props}>{props.children}</CoreText>;
 };
 

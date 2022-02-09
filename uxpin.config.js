@@ -23,6 +23,10 @@ module.exports = {
           'src/components/Group/Group.js',
         ],
       },
+      {
+        name: 'Miscellaneous',
+        include: ['src/components/Divider/Divider.js'],
+      },
     ],
     wrapper: 'src/components/UXPinWrapper/UXPinWrapper.js',
     webpackConfig: 'uxpin.webpack.config.js',

@@ -21,5 +21,9 @@ It means that components are going to look and, function (interactions, data) id
 | ------------------------ | -------------- |
 | Avatar                   | ✓ Completed    |
 | Button                   | ✓ Completed    |
+| Center                   | ✓ Completed    |
+| Container                | ✓ Completed    |
+| Divider                  | ✓ Completed    |
 | Group                    | ✓ Completed    |
+| Image                    | ✓ Completed    |
 | Text                     | ✓ Completed    |

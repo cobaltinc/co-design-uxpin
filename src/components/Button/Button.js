@@ -10,7 +10,7 @@ Button.propTypes = {
   /** @uxpinpropname Label */
   children: PropTypes.string,
 
-  /** @uxpinpropname Size */
+  /** š@uxpinpropname Size */
   size: PropTypes.oneOf(['xsmall', 'small', 'medium', 'large', 'xlarge']),
 
   /** @uxpinpropname Variant */

@@ -3,7 +3,7 @@ module.exports = {
     categories: [
       {
         name: 'Buttons',
-        include: ['src/components/Button/Button.js'],
+        include: ['src/components/Button/Button.js', 'src/components/Burger/Burger.js'],
       },
       {
         name: 'Typography',

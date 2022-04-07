@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@co-design/core": "^0.6.11",
-    "@co-design/hooks": "^0.6.2",
-    "@co-design/icons": "^0.6.3",
+    "@co-design/core": "^0.7.2",
+    "@co-design/hooks": "^0.6.3",
+    "@co-design/icons": "^0.6.4",
     "@uxpin/merge-cli": "^2.7.10",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",

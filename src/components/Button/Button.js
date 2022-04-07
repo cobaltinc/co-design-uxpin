@@ -14,10 +14,10 @@ Button.propTypes = {
   size: PropTypes.oneOf(['xsmall', 'small', 'medium', 'large', 'xlarge']),
 
   /** @uxpinpropname Variant */
-  variant: PropTypes.oneOf(['primary', 'secondary', 'tertiary', 'inverse', 'transparent']),
+  variant: PropTypes.oneOf(['solid', 'ghost', 'light-solid', 'text']),
 
   /** @uxpinpropname Color */
-  color: PropTypes.oneOf(['purple', 'dark', 'red', 'blue', 'orange', 'green', 'yellow']),
+  color: PropTypes.oneOf(['purple', 'gray', 'red', 'blue', 'orange', 'green', 'dark']),
 
   /** @uxpinpropname Disabled */
   disabled: PropTypes.bool,

@@ -15,7 +15,7 @@ module.exports = {
       },
       {
         name: 'Data Display',
-        include: ['src/components/Avatar/Avatar.js', 'src/components/Image/Image.js'],
+        include: ['src/components/Avatar/Avatar.js', 'src/components/Image/Image.js', 'src/components/Breadcrumbs/Breadcrumbs.js'],
       },
       {
         name: 'Layout',

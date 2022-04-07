@@ -2,6 +2,10 @@ module.exports = {
   components: {
     categories: [
       {
+        name: 'Link',
+        include: ['src/components/Anchor/Anchor.js'],
+      },
+      {
         name: 'Buttons',
         include: ['src/components/Button/Button.js', 'src/components/Burger/Burger.js'],
       },

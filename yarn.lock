@@ -1104,29 +1104,29 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@co-design/core@^0.7.2":
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/@co-design/core/-/core-0.7.2.tgz#b91550c52383ddd9ffcfe16ab0254da5b8179a5e"
-  integrity sha512-xf1FiERdOrT4+Z09ratGcaTRjs+SyXloZ1OrP6KT/QZYF1su2F5X+ShTJX8Z3sFqcUgncDSouXijN+EG+NqBIg==
+"@co-design/core@^0.7.10":
+  version "0.7.10"
+  resolved "https://registry.yarnpkg.com/@co-design/core/-/core-0.7.10.tgz#f7a18008ed248ce6bcd93ed0f79bdeec493516e4"
+  integrity sha512-gSVdVjXiW83pD+gnpyk1Mx6Pm4keapmdJNdm//E8ulcb+YP7NB7HF7VenGcKPMQAzTh6GtpVlPq4CmbcvOyPdw==
   dependencies:
-    "@co-design/styles" "^0.7.2"
+    "@co-design/styles" "^0.7.3"
 
 "@co-design/hooks@^0.6.3":
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/@co-design/hooks/-/hooks-0.6.3.tgz#752d4f41c9c9ee63588cc695d9825f94c62fa40f"
   integrity sha512-x5MezTYwC7dAv9+cYJh9+JSGzURmvFUW5ptI8nEPCoxb0hVeLAeJBsSrlvqSHq1Z2KzlhjXgKtk99GMSby3EIA==
 
-"@co-design/icons@^0.6.4":
-  version "0.6.4"
-  resolved "https://registry.yarnpkg.com/@co-design/icons/-/icons-0.6.4.tgz#d70a98f263041e801bcc091e6a69773b109de1bf"
-  integrity sha512-pOfQz3mF+Rpw15SLcyFsJUj9gFbpji/A4UbxDSv+gyma/C6aWxfutoXpD2oKAebJLLGogR8lDiIn4UqUckOLVA==
+"@co-design/icons@^0.6.5":
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/@co-design/icons/-/icons-0.6.5.tgz#d9d028569c701f5141ac071e88321ed15eef8bb5"
+  integrity sha512-tPWH0uAGaAHEYPF8INGE/ONc0cjQ1QcDAEaJ6L86tbIX8JiL6Rf2z8cH7xF8xj/oAjpLy6V78kR/tc19NhmZ1Q==
   dependencies:
     "@svgr/cli" "^6.1.2"
 
-"@co-design/styles@^0.7.2":
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/@co-design/styles/-/styles-0.7.2.tgz#189f10168cf70997297f3a170f3ae3b9597a0594"
-  integrity sha512-McwYhj5WROU4M1w6+qdembzheYXzfl4QByWNVKA3LbxxUIYql+wWxUcB0g7gJ+t56t/QPVLAftWc0Ki3hj1YEg==
+"@co-design/styles@^0.7.3":
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/@co-design/styles/-/styles-0.7.3.tgz#aa7ecbd189c8f56d8eb0e46f9844c4128a7e71fc"
+  integrity sha512-auCbHk41ZYqPZ/GRAH+OiQMbNsA9qxy8tQHutd96pFCQkN83+iSBboQcKAyE9zYaPbZjZNtBGVWVi4Hh1B2q0g==
   dependencies:
     "@emotion/cache" "^11.6.0"
     "@emotion/react" "^11.6.0"

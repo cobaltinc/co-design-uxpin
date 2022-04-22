@@ -27,6 +27,7 @@ module.exports = {
           'src/components/EquallyGrid/EquallyGrid.js',
           'src/components/Grid/Grid.js',
           'src/components/Group/Group.js',
+          'src/components/Stack/Stack.js',
         ],
       },
       {
